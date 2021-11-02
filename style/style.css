@@ -1,29 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
 
 body{
-    height: 100vh;
     font-family: 'Roboto', sans-serif;
 }
 
-.header {
+.site-header {
     background: #000;
-    padding: 39px 55px 39px 50px;
+    padding: 2.38rem 3.438rem 2.438rem 3.125rem;
     display: flex;
     justify-content: space-between;
 }
 
-.header .logo img{
-    width: 80px;
+.site-header .header-logo img{
+    width: 5rem;
 }
 
-.header .header-buttons  {
+.site-header .header-buttons  {
   display: flex;
-  gap: 44px;
+  gap: 2.75rem;
   
   }
 
-.header .header-buttons a {
+.site-header .header-buttons a {
   text-decoration: none;
   color: white;
-  font-size: 20px;
+  font-size: 1.25rem;
 }
