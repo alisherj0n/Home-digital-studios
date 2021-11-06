@@ -53,6 +53,7 @@ font-size: 4.688rem;
 color: #fff;
 display: flex;
 flex-direction: column;
+margin-bottom: 3.75rem;
 }
 
 .intro .intro-heading h1 span {
@@ -60,8 +61,8 @@ flex-direction: column;
   }
 
   .button{
-    padding: 1.5rem 2.5rem;
-    background: #f1f1f1;
+    padding: 1.2rem 2.4rem;
+    background: #fff;
     color: black;
     border: none;
     cursor: pointer;
@@ -71,16 +72,31 @@ flex-direction: column;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 1.5rem;
+    gap: 1.875rem;
   }
 
-  .icon-button button{
-    padding: 1.5rem
-  }
+ .intro .icon-button {
+   border: 2px solid #fff;
+   width: 60px;
+   height: 60px;
+   border-radius: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   cursor: pointer;
 
-  .icon-button button i{
-    font-size: 4rem
-  }
+ }
+
+ .intro .icon-button a {
+  color: #fff;
+}
+
+.intro .intro-paragraph p{
+  color: #fff;
+}
+
+
+  
 
 
 
