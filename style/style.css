@@ -38,10 +38,15 @@
 }
 
 .intro .intro-heading {
-  display: flex;
+  /* display: flex;
   justify-content: center;
   align-items: center;
-  padding: 12rem 0rem;
+  padding: 12rem 0rem; */
+
+  position: absolute;
+  top: 25%;
+  width: 100%;
+  text-align: center;
   
 
 }
