@@ -75,13 +75,13 @@
   text-decoration: none;
   color: #fff;
   border: 2px solid #fff;
-  width: 60px;
-  height: 60px;
+  width: 55px;
+  height: 55px;
   border-radius: 50%;
 }
 
 .intro .container .buttons a i{
-  padding: 1.4rem 1.6rem;
+  padding: 1.2rem 1.4rem;
 }
 
 .intro .container .buttons span{
