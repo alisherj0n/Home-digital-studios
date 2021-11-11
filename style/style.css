@@ -1,15 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@600&display=swap");
 
+body,
+html {
+  font-family: "IBM Plex Sans", sans-serif;
+}
 
- body, html {
-  font-family: 'IBM Plex Sans', sans-serif;
+h1 {
+  margin-top: 0;
+}
+
+a {
+  text-decoration: none;
 }
 
 .site-header {
-  background:transparent;
+  background: transparent;
   padding: 2.46rem 3.438rem 2.438rem 3.125rem;
   display: flex;
-  justify-content: space-between; 
+  justify-content: space-between;
   position: absolute;
   right: 0;
   left: 0;
@@ -30,7 +38,7 @@
   font-size: 1.25rem;
 }
 
-.intro{
+.intro {
   background-image: url(../images/bg.jpg);
   height: 100vh;
   background-size: cover;
@@ -38,62 +46,48 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  color: #fff;
 }
 
 .intro .container {
   text-align: center;
-  width: 48rem;
+  max-width: 48rem;
 }
 
-.intro .container h1 {
-  color: #fff;
+.intro h1 {
   font-size: 4.7rem;
   line-height: 1.3;
 }
 
-.button{
+.button {
   padding: 1.25rem 2.5rem;
   background-color: #fff;
   color: #101010;
   border: none;
-  cursor: pointer;
 }
 
-.button:hover{
+.button:hover {
   background-color: #f1f1f1;
 }
 
-.intro .container .buttons{
+.play-icon{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  cursor: pointer;
+  background: transparent;
+  border: 2px solid #fff;
+}
+
+.play-icon i{
+  color: #fff;
+  font-size: .9rem;
+}
+
+.intro .buttons {
   display: flex;
   gap: 1.5rem;
   align-items: center;
   justify-content: center;
 }
-
-.intro .buttons a{
-  font-size: 1rem;
-  text-decoration: none;
-  color: #fff;
-  border: 2px solid #fff;
-  width: 55px;
-  height: 55px;
-  border-radius: 50%;
-}
-
-.intro .container .buttons a i{
-  padding: 1.2rem 1.4rem;
-}
-
-.intro .container .buttons span{
-  color: #fff;
-}
-
-
-
-  
-
-
-
-  
-
 
