@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;200;300;400;500;600&display=swap');
 
 body,
 html {
@@ -77,12 +77,10 @@ a {
   cursor: pointer;
   background: transparent;
   border: 2px solid #fff;
-}
-
-.play-icon i{
   color: #fff;
   font-size: .9rem;
 }
+
 
 .intro .buttons {
   display: flex;
