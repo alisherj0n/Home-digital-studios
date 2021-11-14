@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;200;300;400;500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;200;300;400;500;600&display=swap");
 
 body,
 html {
@@ -49,7 +49,7 @@ a {
   color: #fff;
 }
 
-.intro .container {
+.intro .intro-container {
   text-align: center;
   max-width: 48rem;
 }
@@ -70,17 +70,16 @@ a {
   background-color: #f1f1f1;
 }
 
-.play-icon{
-  width: 60px;
-  height: 60px;
+.play-icon {
+  width: 3.75rem;
+  height: 3.75rem;
   border-radius: 50%;
   cursor: pointer;
   background: transparent;
   border: 2px solid #fff;
   color: #fff;
-  font-size: .9rem;
+  font-size: 0.9rem;
 }
-
 
 .intro .buttons {
   display: flex;
@@ -89,3 +88,11 @@ a {
   justify-content: center;
 }
 
+.container {
+  padding: 7.5rem 0rem 0rem;
+}
+
+.badge {
+  padding: .45rem .9rem ;
+  background: #f5f5f5;
+}
