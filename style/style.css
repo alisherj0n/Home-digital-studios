@@ -112,9 +112,5 @@ a {
 
 .about-us .content {
   display: flex;
-  width: 50%;
-}
-
-.about-us .paragraphs {
-  width: 50%;
+  justify-content: center;
 }
