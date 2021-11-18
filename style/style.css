@@ -120,6 +120,10 @@ p {
   align-items: center;
 }
 
+.about-us .badge {
+  margin-bottom: 2rem;
+}
+
 .about-us header,
 .about-us .paragraphs {
   width: 50%;
