@@ -18,6 +18,7 @@ a {
 p {
   color: #454545;
   margin: 0;
+  line-height: 1.6;
 }
 
 .badge {
@@ -129,10 +130,6 @@ p {
   width: 50%;
 }
 
-.about-us .paragraphs p {
-  line-height: 1.6;
-}
-
-.about-us .paragraphs p:nth-child(1) {
+.about-us .paragraphs p:not(:last-child) {
   margin-bottom: 1.875rem;
 }
