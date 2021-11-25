@@ -134,3 +134,10 @@ p {
 .about-us .paragraphs p:not(:last-child) {
   margin-bottom: 1.875rem;
 }
+
+/* Нужно ли вывести piture-section в отдельный класс и уменьшить верхние внутренние отступы или же отдельно для данной секции уменьшить их?
+Также в данном случае можно удалить из секции выше margin-bottom ? */
+
+.pictures .left-side img {
+  width: 42rem;
+}
