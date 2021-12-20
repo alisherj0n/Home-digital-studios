@@ -154,16 +154,16 @@ p {
 }
 
 .pictures .left-side {
-  max-width: 41.25rem;
+  max-width: 50%;
 }
 
 .pictures .left-side img {
   max-width: 100%;
-  margin-bottom: 7rem;
+  display: block;
 }
 
 .pictures .left-side .inside {
-  padding: 0 7rem;
+  padding: 5.8rem 7rem 0;
 }
 
 .pictures .inside h1 {
@@ -176,10 +176,11 @@ p {
 }
 
 .pictures .right-side {
-  max-width: 33.75rem;
+  max-width: 40%;
   align-self: end;
 }
 
 .pictures .right-side img {
   max-width: 100%;
+  display: block;
 }
