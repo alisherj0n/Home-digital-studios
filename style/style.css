@@ -36,6 +36,7 @@ p {
   background-color: #fff;
   color: #101010;
   border: none;
+  display: inline-block;
 }
 
 .button:hover {
@@ -148,12 +149,37 @@ p {
   margin-bottom: 1.875rem;
 }
 
-/* .pictures .left-side {
-  width: 60%;
-  border: 1px solid red;
+.pictures .content {
+  display: flex;
+}
+
+.pictures .left-side {
+  max-width: 41.25rem;
 }
 
 .pictures .left-side img {
-  width: 100%;
-  margin-bottom: 3rem;
-} */
+  max-width: 100%;
+  margin-bottom: 7rem;
+}
+
+.pictures .left-side .inside {
+  padding: 0 7rem;
+}
+
+.pictures .inside h1 {
+  font-size: 1.375rem;
+  width: 26rem;
+}
+
+.pictures .inside p {
+  margin-bottom: 2.5rem;
+}
+
+.pictures .right-side {
+  max-width: 33.75rem;
+  align-self: end;
+}
+
+.pictures .right-side img {
+  max-width: 100%;
+}
