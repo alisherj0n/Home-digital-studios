@@ -27,10 +27,6 @@ p {
   display: inline-block;
 }
 
-.empty {
-  margin-bottom: 10rem;
-}
-
 .button {
   padding: 1.25rem 2.5rem;
   background-color: #fff;
@@ -157,18 +153,17 @@ p {
   max-width: 50%;
 }
 
-.pictures .left-side img {
+.pictures img {
   max-width: 100%;
   display: block;
 }
 
-.pictures .left-side .inside {
+.pictures .inside {
   padding: 5.8rem 6rem 0;
 }
 
 .pictures .inside h1 {
   font-size: 1.375rem;
-  width: 26rem;
 }
 
 .pictures .inside p {
@@ -178,9 +173,4 @@ p {
 .pictures .right-side {
   max-width: 40%;
   align-self: end;
-}
-
-.pictures .right-side img {
-  max-width: 100%;
-  display: block;
 }
