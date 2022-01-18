@@ -32,10 +32,11 @@ p {
   color: #101010;
   font-size: 1.375rem;
   font-weight: bold;
+  border-bottom: 1px solid transparent;
 }
 
 .link:hover {
-  border-bottom: 1px solid black;
+  border-color: #000;
 }
 
 .button {
@@ -80,10 +81,32 @@ p {
   padding: 0 1rem;
 }
 
+.wrap {
+  max-width: 25rem;
+  height: 35rem;
+  padding: 1rem;
+  display: flex;
+  align-items: flex-end;
+}
+
 .card {
   border: 1px solid #e6e6e6;
   padding: 2.5rem 1.875rem;
   text-align: center;
+}
+
+.card:hover {
+  box-shadow: 0px 20px 25px -5px rgb(16 16 16 / 10%);
+}
+
+.card img {
+  max-height: 13rem;
+  margin-bottom: 2rem;
+}
+
+.card .link {
+  margin-bottom: 1.25rem;
+  display: inline-block;
 }
 
 .site-header {
@@ -202,16 +225,15 @@ p {
 
 .cards .content {
   display: flex;
-  gap: 1.875rem;
 }
 
-.cards .card img {
-  width: 12.5rem;
-  display: block;
-  margin: 1.5rem auto;
+.wrap.middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.cards .card .link {
-  margin-bottom: 1.25rem;
-  display: block;
+.cards .wrap.middle .link.service {
+  font-size: 1rem;
 }
