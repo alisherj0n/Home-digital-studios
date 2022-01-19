@@ -116,6 +116,24 @@ p {
   display: inline-block;
 }
 
+.item {
+  padding: 3.125rem 0;
+  max-width: 20rem;
+}
+
+.item h1,
+h6 {
+  color: #ffff;
+  line-height: 1.2;
+}
+
+.item h6 {
+  font-size: 1rem;
+  font-style: italic;
+  font-weight: lighter;
+  margin-bottom: 0.6rem;
+}
+
 .site-header {
   background: transparent;
   padding: 2.46rem 3.438rem 2.438rem 3.125rem;
@@ -232,6 +250,7 @@ p {
 
 .cards {
   padding-top: 7.5rem;
+  margin-bottom: 2.5rem;
 }
 
 .cards .content {
@@ -246,4 +265,17 @@ p {
   align-items: center;
   gap: 5rem;
   transform: translateY(-6rem);
+}
+
+.portfolio {
+  background-image: url(../images/bg2.png);
+  background-color: #101010;
+  height: 55vh;
+}
+
+.portfolio .content {
+  padding: 7.5rem 0 5rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
 }
