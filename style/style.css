@@ -118,13 +118,15 @@ p {
 
 .item {
   padding: 3.125rem 0;
-  max-width: 20rem;
+  max-width: 16rem;
 }
 
 .item h1,
 h6 {
   color: #ffff;
   line-height: 1.2;
+  border-bottom: 1px solid transparent;
+  display: inline-block;
 }
 
 .item h6 {
@@ -132,6 +134,10 @@ h6 {
   font-style: italic;
   font-weight: lighter;
   margin-bottom: 0.6rem;
+}
+
+.item .link:hover {
+  border-color: #fff;
 }
 
 .site-header {
