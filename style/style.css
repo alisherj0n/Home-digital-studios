@@ -5,6 +5,14 @@ html {
   font-family: "IBM Plex Sans", sans-serif;
 }
 
+body::-webkit-scrollbar {
+  width: 0.4em;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #000;
+}
+
 h1,
 h2,
 h3,
@@ -118,22 +126,22 @@ p {
 
 .item {
   padding: 3.125rem 0;
-  max-width: 16rem;
+  max-width: 17.5rem;
 }
 
-.item h1,
-h6 {
+.item h1 {
   color: #ffff;
   line-height: 1.2;
   border-bottom: 1px solid transparent;
   display: inline-block;
 }
 
-.item h6 {
-  font-size: 1rem;
+.item span {
   font-style: italic;
   font-weight: lighter;
   margin-bottom: 0.6rem;
+  color: #f1f1f1;
+  display: inline-block;
 }
 
 .item .link:hover {
@@ -276,12 +284,49 @@ h6 {
 .portfolio {
   background-image: url(../images/bg2.png);
   background-color: #101010;
-  height: 55vh;
+  padding: 7.5rem 0 5rem;
+  margin-bottom: 7.5rem;
 }
 
 .portfolio .content {
-  padding: 7.5rem 0 5rem;
   display: flex;
-  justify-content: space-between;
-  gap: 3rem;
+  gap: 17rem;
+  overflow-x: auto;
+}
+
+.portfolio .content::-webkit-scrollbar {
+  width: 0.1em;
+  height: 0.4em;
+}
+
+.portfolio .content::-webkit-scrollbar-thumb {
+  background-color: #fff;
+}
+
+.clients header {
+  text-align: center;
+  padding: 0 20rem;
+  margin-bottom: 5.625rem;
+}
+
+.clients .badge {
+  margin-bottom: 1.875rem;
+}
+
+.clients .content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.clients img {
+  max-width: 8.5rem;
+  opacity: 0.5;
+}
+
+.clients img:hover {
+  opacity: 1;
+  transition: 0.5s;
 }
