@@ -1,0 +1,33 @@
+.pictures {
+  margin-bottom: 7.5rem;
+}
+
+.pictures .content {
+  display: flex;
+}
+
+.pictures .left-side {
+  max-width: 55%;
+}
+
+.pictures img {
+  max-width: 100%;
+  display: block;
+}
+
+.pictures .inside {
+  padding: 7rem 7rem 0;
+}
+
+.pictures .inside h1 {
+  font-size: 1.375rem;
+}
+
+.pictures .inside p {
+  margin-bottom: 2.5rem;
+}
+
+.pictures .right-side {
+  max-width: 45%;
+  align-self: end;
+}

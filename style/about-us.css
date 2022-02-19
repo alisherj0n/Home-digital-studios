@@ -1,0 +1,26 @@
+.about-us {
+  padding: 7rem 0;
+}
+
+.about-us .container {
+  max-width: 60rem;
+}
+
+.about-us .content {
+  display: flex;
+  align-items: center;
+}
+
+.about-us .badge {
+  margin-bottom: 2rem;
+}
+
+.about-us header,
+.about-us .paragraphs {
+  flex-basis: 0;
+  flex-grow: 1;
+}
+
+.about-us .paragraphs p:not(:last-child) {
+  margin-bottom: 1.875rem;
+}
