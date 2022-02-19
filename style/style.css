@@ -5,10 +5,34 @@ html {
   font-family: "IBM Plex Sans", sans-serif;
 }
 
-h1 {
+body::-webkit-scrollbar {
+  width: 0.4em;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #000;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin-top: 0;
+}
+
+h1 {
   font-size: 2.875rem;
   line-height: 1.5;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.375rem;
 }
 
 a {
@@ -30,12 +54,13 @@ p {
 .link {
   text-decoration: none;
   color: #101010;
-  font-size: 1.375rem;
   font-weight: bold;
+  border-bottom: 1px solid transparent;
+  margin-top: 0;
 }
 
 .link:hover {
-  border-bottom: 1px solid black;
+  border-color: #000;
 }
 
 .button {
@@ -84,6 +109,43 @@ p {
   border: 1px solid #e6e6e6;
   padding: 2.5rem 1.875rem;
   text-align: center;
+}
+
+.card:hover {
+  box-shadow: 0px 20px 25px -5px rgb(16 16 16 / 10%);
+}
+
+.card img {
+  max-height: 13rem;
+  margin-bottom: 2rem;
+}
+
+.card .link {
+  display: inline-block;
+}
+
+.item {
+  padding: 3.125rem 0;
+  max-width: 17.5rem;
+}
+
+.item h1 {
+  color: #ffff;
+  line-height: 1.2;
+  border-bottom: 1px solid transparent;
+  display: inline-block;
+}
+
+.item span {
+  font-style: italic;
+  font-weight: lighter;
+  margin-bottom: 0.6rem;
+  color: #f1f1f1;
+  display: inline-block;
+}
+
+.item .link:hover {
+  border-color: #fff;
 }
 
 .site-header {
@@ -200,18 +262,143 @@ p {
   align-self: end;
 }
 
+.cards {
+  padding-top: 7.5rem;
+  margin-bottom: 2.5rem;
+}
+
 .cards .content {
   display: flex;
-  gap: 1.875rem;
+  gap: 1.6rem;
+  align-items: flex-start;
 }
 
-.cards .card img {
-  width: 12.5rem;
-  display: block;
-  margin: 1.5rem auto;
+.cards .middle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5rem;
+  transform: translateY(-6rem);
 }
 
-.cards .card .link {
-  margin-bottom: 1.25rem;
-  display: block;
+.portfolio {
+  background-image: url(../images/bg2.png);
+  background-color: #101010;
+  padding: 7.5rem 0 5rem;
+  margin-bottom: 7.5rem;
+}
+
+.portfolio .content {
+  display: flex;
+  gap: 17rem;
+  overflow-x: auto;
+}
+
+.portfolio .content::-webkit-scrollbar {
+  width: 0.1rem;
+  height: 0.4rem;
+}
+
+.portfolio .content::-webkit-scrollbar-thumb {
+  background-color: #fff;
+}
+
+.clients {
+  margin-bottom: 8rem;
+}
+
+.clients header {
+  text-align: center;
+  max-width: 35rem;
+  margin: 0 auto 5.625rem;
+}
+
+.clients .badge {
+  margin-bottom: 1.875rem;
+}
+
+.clients .content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6rem 10rem;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 7.5rem;
+}
+
+.clients img {
+  max-width: 8.5rem;
+  opacity: 0.5;
+}
+
+.clients img:hover {
+  opacity: 1;
+  transition: 0.5s;
+}
+
+.clients .buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.statistics {
+  display: flex;
+}
+
+.statistics > * {
+  width: 50%;
+}
+
+.statistics .left-picture {
+  background: url("../images/bg1.jpg") no-repeat center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.statistics .play-icon {
+  width: 5.3rem;
+  height: 5.3rem;
+  background: #fff;
+  color: #000;
+}
+
+.statistics .play-icon .icon {
+  margin-left: 6px;
+}
+
+.statistics .play-icon:hover {
+  width: 5.625rem;
+  height: 5.625rem;
+  transition: 0.5s;
+  padding: 0 0.5rem;
+}
+
+.statistics .right-picture {
+  background-image: url(../images/bg2.png);
+  background-color: #000000eb;
+  padding: 7rem 8rem;
+  box-sizing: border-box;
+  color: #ffffff;
+}
+
+.statistics p {
+  color: #cecece;
+  margin-bottom: 2rem;
+}
+
+.statistics .numbers {
+  display: flex;
+  gap: 4rem;
+}
+
+.statistics .number span {
+  font-size: 2.875rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  display: inline-block;
+}
+
+.statistics .number p {
+  font-style: italic;
 }

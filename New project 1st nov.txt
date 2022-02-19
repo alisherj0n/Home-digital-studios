@@ -1,0 +1,49 @@
+1. Header 
+  1.1. logo
+  1.2. buttons
+
+2. Intro 
+  2.1. Background
+  2.2. Heading 
+  2.3. Buttons 
+    2.3.1. Square button
+    2.3.2. Icon button
+   
+3. About us 
+  3.1. Badge
+  3.2. Heading
+  3.3. Paragraphs
+
+4. pictures
+  4.1. Left side picture
+  4.2. Text
+  4.3. Right side picture
+
+5. services
+  5.1. cards
+  5.2. lift the second card
+
+6. portfolio
+  6.1. items
+  6.2. controls
+
+7. clients
+  7.1. badge
+  7.2. heading
+  7.3. logos
+  7.4. button
+  
+8. statistics
+  8.1. left side picture
+  8.2. All content
+    8.2.1. counters 
+
+9. latest news
+  9.1. heading
+  9.2. blog-items
+  9.3. button
+10. lets work
+    
+11. footer 
+
+декомпозировать
