@@ -1,8 +1,6 @@
 .portfolio {
   background-image: url(../images/bg2.png);
   background-color: #101010;
-  padding: 7.5rem 0 5rem;
-  margin-bottom: 7.5rem;
 }
 
 .portfolio .content {
@@ -18,4 +16,27 @@
 
 .portfolio .content::-webkit-scrollbar-thumb {
   background-color: #fff;
+}
+
+.portfolio .item {
+  max-width: 17.5rem;
+}
+
+.portfolio .item h1 {
+  color: #ffff;
+  line-height: 1.2;
+  border-bottom: 1px solid transparent;
+  display: inline-block;
+}
+
+.portfolio .item span {
+  font-style: italic;
+  font-weight: lighter;
+  margin-bottom: 0.6rem;
+  color: #f1f1f1;
+  display: inline-block;
+}
+
+.portfolio .item .link:hover {
+  border-color: #fff;
 }
