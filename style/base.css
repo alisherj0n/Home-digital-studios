@@ -55,11 +55,8 @@ p {
 .link {
   text-decoration: none;
   color: #101010;
-  font-weight: bold;
   border-bottom: 1px solid transparent;
-  margin-top: 0;
-  margin-bottom: 1rem;
-  transition: 0.3s;
+  transition: border-color 0.3s;
 }
 
 .link:hover {
