@@ -1,0 +1,11 @@
+.lets-work {
+  background: #000000eb url(../images/bg2.png);
+  text-align: center;
+  padding: 10rem;
+}
+
+.lets-work .heading {
+  font-size: 7.5rem;
+  color: #ffffffe8;
+  margin-bottom: 0;
+}
