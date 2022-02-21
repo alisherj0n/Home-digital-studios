@@ -1,0 +1,44 @@
+.footer {
+  padding: 8rem 0;
+  background: #101010;
+  color: #e6e6e6;
+}
+
+.footer .content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer .footer-logo {
+  width: 3rem;
+}
+
+.footer .footer-card {
+  max-width: 16.9rem;
+}
+
+.footer .footer-card.link {
+  max-width: 16rem;
+  line-height: 1.9;
+}
+
+.footer .footer-card p {
+  color: #fff;
+}
+
+.footer .footer-card .link {
+  color: #fff;
+}
+
+.footer .footer-card .link:hover {
+  border-bottom: 1px solid #fff;
+}
+
+.footer .footer-social {
+  display: flex;
+  gap: 1.2rem;
+}
+
+.footer .footer-social .icon {
+  color: #fff;
+}

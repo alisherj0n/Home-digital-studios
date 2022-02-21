@@ -20,7 +20,7 @@
 .clients img {
   max-width: 8.5rem;
   opacity: 0.5;
-  transition: 0.5s;
+  transition: opacity 0.5s;
 }
 
 .clients img:hover {
