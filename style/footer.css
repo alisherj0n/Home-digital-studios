@@ -1,41 +1,39 @@
 .footer {
   background: #101010;
-  color: #e6e6e6;
+  color: #ffffffe3;
 }
 
 .footer .content {
   display: flex;
-  gap: 15rem;
+  justify-content: space-around;
 }
 
-.footer .footer-logo {
-  max-width: 5rem;
-}
-
-.footer .footer-logo .logo {
+.footer .logo {
   width: 3rem;
+}
+
+.footer .description {
+  max-width: 20rem;
 }
 
 .footer .right-side-content {
   display: flex;
-  gap: 3rem;
+  gap: 5rem;
 }
 
-.footer .footer-card .link {
-  color: #fff;
+.footer .contacts .link {
+  color: #ffffffe3;
 }
 
-.footer .footer-card .link:hover {
-  border-color: #fff;
+.footer .contacts .link:hover {
+  border-color: #ffffffe3;
 }
 
-.footer .social-networks.list {
-  list-style-type: none;
+.footer .social-networks {
   display: flex;
   gap: 1rem;
-  margin: 0;
 }
 
 .footer .social-networks .icon {
-  color: #fff;
+  color: #ffffffe3;
 }
