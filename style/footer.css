@@ -5,7 +5,7 @@
 
 .footer .content {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .footer .logo {
@@ -14,15 +14,6 @@
 
 .footer .description {
   max-width: 20rem;
-}
-
-.footer .right-side-content {
-  display: flex;
-  gap: 5rem;
-}
-
-.footer .contacts .link {
-  color: #ffffffe3;
 }
 
 .footer .contacts .link:hover {
@@ -34,6 +25,6 @@
   gap: 1rem;
 }
 
-.footer .social-networks .icon {
+.footer a {
   color: #ffffffe3;
 }
